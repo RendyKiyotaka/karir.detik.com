@@ -1,907 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>karir.detik.com</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg shadow sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="assets/detik-karir-logo.png"
-            alt="Logo"
-            width="120"
-            height="22"
-            class="d-inline-block align-text-top"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#content-job">Jobs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://detik.com">
-                <img
-                  src="assets/detikcom-color.png"
-                  alt="detik.com"
-                  width="70"
-                  height="14"
-                />
-              </a>
-            </li>
-          </ul>
-          <div class="nav-item navbar-nav">
-            <a href="#" class="nav-link">Masuk</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div class="video-top" id="video-top">
-      <div class="background-video">
-        <video
-          src="https://karir.detik.com/static/media/video-wp.b6f3d7b28023e6518346.mp4"
-          type="video/mp4"
-          autoplay
-          loop
-          muted
-        ></video>
-      </div>
-    </div>
-    <div class="caption-video">
-      <div class="inner-caption">
-        <div class="title-caption">
-          <h1 class="back">Work With Bestie</h1>
-          <h1 class="front">Work With Bestie</h1>
-        </div>
-        <div class="desc-caption">
-          <h5 class="light">
-            Ini saatnya kamu kerja di samping sahabatmu sendiri dengan
-            lingkungan positif dan supportif untuk karirmu ke depan di detikcom!
-          </h5>
-        </div>
-        <div class="button-see">
-          <a href="#content-job">
-            <button
-              dtr-evt="header"
-              dtr-sec="button see jobs"
-              dtr-act="button see jobs"
-              class="btn-general btn-orange"
-            >
-              See Jobs
-            </button>
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>karir.detik.com</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg shadow sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/detik-karir-logo.png" alt="Logo" width="120" height="22"
+          class="d-inline-block align-text-top" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#content-job">Jobs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://detik.com">
+              <img src="assets/detikcom-color.png" alt="detik.com" width="70" height="14" />
+            </a>
+          </li>
+        </ul>
+        <div class="nav-item navbar-nav">
+          <a href="#" class="nav-link">Masuk</a>
         </div>
       </div>
     </div>
-    <div class="watch-full">
-      <div class="text-watch">
-        <a href="#popup-video">
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHwSURBVHgBrVaBcYMwDDRdoIzgTlC6ASNkg7JByQRlA7JB2CDZgG4QOoHTCZINVKnIRXGNsUl19wfYkl42kuVMRQoAlPgoEM+InHFFfCE+EEOWZWd1jyBJjnhHXCBO9ohCrRE0fBNE9NwhNgjtBFQiakTvEOsUslYQNeQ40k4jTmxrokg5OpIhKcpbH40IuAgp2pV16k5BH1VwpY5C1BZGkNbss/dNGp7UnjmbrafUhEDdA/ut5KBdXTNj1Il/YnehUhHCiXS5WaXILD1j1NOkCM6kEMNYUiSljYDkGDD4JRRRWyewtM0w1irJjj42/FHHEjrEnSBuAzkwbitMNVOmEop5d5sLjw6NmwcxdlUrBQ/tDvGEr1uERjQetTPN/Quh45TkcU5BEmq1UjgpKO0Pagx861H7aWcPIqrktsLJ0OIrkZWIDvGC2zt41Mn/IMtiH3DcO2Xh9sl+IemmshAOyThfImRjww7IplILIkqntAO2NJoZA1vkJ0EU1SdhOtqMHLSFeQkUbscr6yHt8Larq9yJ+VayUkC0PLUQTavuFDptQrtmlXLxnw6w/orxClMGl0vKOUxN00Bk32NbLWzD9xmPsc1cS1yD/1DW/K96oZ+UWK6zDv5ehA3DHe+XtjCLJKZ6Kxnyqn9mfCKOMVf9b5fhsiZU5k7xAAAAAElFTkSuQmCC"
-            alt="Watch Full Video"
-          />
-          <p>Watch Full Video</p>
+  </nav>
+  <div class="video-top" id="video-top">
+    <div class="background-video">
+      <video src="https://karir.detik.com/static/media/video-wp.b6f3d7b28023e6518346.mp4" type="video/mp4" autoplay loop
+        muted></video>
+    </div>
+  </div>
+  <div class="caption-video">
+    <div class="inner-caption">
+      <div class="title-caption">
+        <h1 class="back">Work With Bestie</h1>
+        <h1 class="front">Work With Bestie</h1>
+      </div>
+      <div class="desc-caption">
+        <h5 class="light">
+          Ini saatnya kamu kerja di samping sahabatmu sendiri dengan
+          lingkungan positif dan supportif untuk karirmu ke depan di detikcom!
+        </h5>
+      </div>
+      <div class="button-see">
+        <a href="#content-job">
+          <button dtr-evt="header" dtr-sec="button see jobs" dtr-act="button see jobs" class="btn-general btn-orange">
+            See Jobs
+          </button>
         </a>
       </div>
     </div>
-    <div class="popup-video" id="popup-video">
-      <div class="video-container">
-        <video class="video-pop" controls loop autoplay>
-          <source
-            src="https://karir.detik.com/static/media/video-wp.b6f3d7b28023e6518346.mp4"
-            type="video/mp4"
-          />
-        </video>
-        <a href="#" class="close-btn">&times;</a>
-      </div>
-    </div>
-    <div class="content-wp pt50 pb50">
-      <div class="container">
-        <div class="row">
-          <div class="can-content">
-            <h1 class="h-wp pb30">You CAN Sit With Us</h1>
-            <div class="coloumn-can pt30">
-              <div class="desc-col">
-                <h4 class="font-blue">Hi, detikers!</h4>
-                <h6 class="light p1">
-                  detikcom membuka kesempatan bagi kamu yang ingin tumbuh dan
-                  berkembang bersama. Akan selalu ada cerita menyenangkan saat
-                  berkarya dengan teammates seru di detikcom, selayaknya budaya
-                  yang kami pegang, Working With Bestie. Di sini, detikers akan
-                  menemukan banyak bestie baru yang siap menemani dan membantu
-                  menghadapi segala tantangan.
-                </h6>
-                <h6 class="light">
-                  Kami mencari seseorang yang juga bersemangat untuk menerapkan
-                  values detikcom, B.E.S.T.I.E, yakni: Berintegritas,
-                  Extraordinary, Sinergis, Tanggap, Inovatif, dan Energik. Hal
-                  ini merupakan kunci yang akan mewujudkan detikcom sebagai
-                  “Digital Life Gateway”.
-                </h6>
-                <h6 class="light">
-                  Siap merasakan experience baru dalam meniti karir? Ini saatnya
-                  kamu bekerja di samping sahabatmu sendiri!
-                </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="logo-detik align-right" style="padding-top: 20px">
-      <img
-        src="data:image/png;base64,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"
-      />
-    </div>
-
-    <div class="slider-banner pt50">
-      <h1 class="h-wp container pb30">We Carry These Values by Heart</h1>
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://karir.detik.com/static/media/slide1.ed8e43303c040c5d71bf.jpeg"
-              class="d-block w-100"
-              alt="slide1"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://karir.detik.com/static/media/slide2.9195385504eb78130bc4.jpeg"
-              class="d-block w-100"
-              alt="slide2"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://karir.detik.com/static/media/slide3.d5cdca9679e3ee422249.jpeg"
-              class="d-block w-100"
-              alt="slide3"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://karir.detik.com/static/media/slide4.6cb68347688187d80dce.jpeg"
-              class="d-block w-100"
-              alt="slide4"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://karir.detik.com/static/media/slide5.29c708edea84bb2955d0.jpeg"
-              class="d-block w-100"
-              alt="slide5"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://karir.detik.com/static/media/slide6.8e10a0ae5d4af20db860.jpeg"
-              class="d-block w-100"
-              alt="slide6"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://karir.detik.com/static/media/slide7.2b901a7a1344976ca8bc.jpeg"
-              class="d-block w-100"
-              alt="slide7"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide-to="4"
-            aria-label="Slide 5"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide-to="5"
-            aria-label="Slide 6"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide-to="6"
-            aria-label="Slide 7"
-          ></button>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-wp pt100 pb50">
-      <div class="container">
-        <div class="row">
-          <div class="content-job" id="content-job">
-            <h1 class="h-wp">Are You The One That We’re Looking For?</h1>
-            <div class="job-list pt50">
-              <div class="head-filter">
-                <input
-                  type="text"
-                  name=""
-                  placeholder="Input search keyword..."
-                  value=""
-                />
-                <select class="selectpicker" title="Select Departement">
-                  <option>Business</option>
-                  <option>Content</option>
-                </select>
-                <select class="selectpicker" title="Select Job Level">
-                  <option>Internship</option>
-                  <option>Fulltime</option>
-                  <option>Contract</option>
-                </select>
-                <button
-                  class="btn-general btn-orange search-job"
-                  dtr-evt="list job"
-                  dtr-sec="button search"
-                  dtr-act="button search"
-                >
-                  Search
-                </button>
-              </div>
-            </div>
-            <div class="job-inner">
-              <table class="table hide-mobile-767">
-                <tbody>
-                  <tr
-                    class="tr-hover"
-                    dtr-evt="list job"
-                    dtr-sec="list job position"
-                    dtr-act="list job position"
-                    dtr-ttl="Videographer"
-                    style="cursor: pointer"
-                  >
-                    <th
-                      class="tr-videographer"
-                      scope="row"
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Videographer"
-                    >
-                      <a
-                        href="#"
-                        dtr-evt="list job"
-                        dtr-sec="list job position"
-                        dtr-act="list job position"
-                        dtr-ttl="Videographer"
-                        >Videographer<span
-                          ><img
-                            class="arrow-right"
-                            dtr-evt="list job"
-                            dtr-sec="list job position"
-                            dtr-act="list job position"
-                            dtr-ttl="Videographer"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
-                            alt="Arrow icon for detail view navigation" /></span
-                      ></a>
-                    </th>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Videographer"
-                    >
-                      BUSINESS
-                    </td>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Videographer"
-                    >
-                      Fulltime
-                    </td>
-                  </tr>
-                  <tr
-                    class="tr-hover"
-                    dtr-evt="list job"
-                    dtr-sec="list job position"
-                    dtr-act="list job position"
-                    dtr-ttl="Social Media"
-                    style="cursor: pointer"
-                  >
-                    <th
-                      class="tr-social-media"
-                      scope="row"
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Social Media"
-                    >
-                      <a
-                        href="#"
-                        dtr-evt="list job"
-                        dtr-sec="list job position"
-                        dtr-act="list job position"
-                        dtr-ttl="Social Media"
-                        >Social Media<span
-                          ><img
-                            class="arrow-right"
-                            dtr-evt="list job"
-                            dtr-sec="list job position"
-                            dtr-act="list job position"
-                            dtr-ttl="Social Media"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
-                            alt="Arrow icon for detail view navigation" /></span
-                      ></a>
-                    </th>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Social Media"
-                    >
-                      BUSINESS
-                    </td>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Social Media"
-                    >
-                      Fulltime
-                    </td>
-                  </tr>
-                  <tr
-                    class="tr-hover"
-                    dtr-evt="list job"
-                    dtr-sec="list job position"
-                    dtr-act="list job position"
-                    dtr-ttl="Video Editor 20detik"
-                    style="cursor: pointer"
-                  >
-                    <th
-                      class="tr-video-editor"
-                      scope="row"
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Video Editor 20detik"
-                    >
-                      <a
-                        href="#"
-                        dtr-evt="list job"
-                        dtr-sec="list job position"
-                        dtr-act="list job position"
-                        dtr-ttl="Video Editor 20detik"
-                        >Video Editor 20detik<span
-                          ><img
-                            class="arrow-right"
-                            dtr-evt="list job"
-                            dtr-sec="list job position"
-                            dtr-act="list job position"
-                            dtr-ttl="Video Editor 20detik"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
-                            alt="Arrow icon for detail view navigation" /></span
-                      ></a>
-                    </th>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Video Editor 20detik"
-                    >
-                      CONTENT
-                    </td>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Video Editor 20detik"
-                    >
-                      Fulltime
-                    </td>
-                  </tr>
-                  <tr
-                    class="tr-hover"
-                    dtr-evt="list job"
-                    dtr-sec="list job position"
-                    dtr-act="list job position"
-                    dtr-ttl="Reporter DetikNews"
-                    style="cursor: pointer"
-                  >
-                    <th
-                      class="tr-reporter"
-                      scope="row"
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Reporter DetikNews"
-                    >
-                      <a
-                        href="#"
-                        dtr-evt="list job"
-                        dtr-sec="list job position"
-                        dtr-act="list job position"
-                        dtr-ttl="Reporter DetikNews"
-                        >Reporter DetikNews<span
-                          ><img
-                            class="arrow-right"
-                            dtr-evt="list job"
-                            dtr-sec="list job position"
-                            dtr-act="list job position"
-                            dtr-ttl="Reporter DetikNews"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
-                            alt="Arrow icon for detail view navigation" /></span
-                      ></a>
-                    </th>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Reporter DetikNews"
-                    >
-                      CONTENT
-                    </td>
-                    <td
-                      dtr-evt="list job"
-                      dtr-sec="list job position"
-                      dtr-act="list job position"
-                      dtr-ttl="Reporter DetikNews"
-                    >
-                      Fulltime
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer class="footer-mobile container">
-      <div class="footer-logo">
+  </div>
+  <div class="watch-full">
+    <div class="text-watch">
+      <a href="#popup-video">
         <img
-          src="assets/detikcom-color.png"
-          alt="detik.com"
-          width="200px"
-          height="39px"
-        />
-        <div class="part-of">
-          part of
-          <span
-            ><img
-              src="assets/detik-newtwork.png"
-              alt="detiknetwork"
-              width="100"
-              height="37"
-          /></span>
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHwSURBVHgBrVaBcYMwDDRdoIzgTlC6ASNkg7JByQRlA7JB2CDZgG4QOoHTCZINVKnIRXGNsUl19wfYkl42kuVMRQoAlPgoEM+InHFFfCE+EEOWZWd1jyBJjnhHXCBO9ohCrRE0fBNE9NwhNgjtBFQiakTvEOsUslYQNeQ40k4jTmxrokg5OpIhKcpbH40IuAgp2pV16k5BH1VwpY5C1BZGkNbss/dNGp7UnjmbrafUhEDdA/ut5KBdXTNj1Il/YnehUhHCiXS5WaXILD1j1NOkCM6kEMNYUiSljYDkGDD4JRRRWyewtM0w1irJjj42/FHHEjrEnSBuAzkwbitMNVOmEop5d5sLjw6NmwcxdlUrBQ/tDvGEr1uERjQetTPN/Quh45TkcU5BEmq1UjgpKO0Pagx861H7aWcPIqrktsLJ0OIrkZWIDvGC2zt41Mn/IMtiH3DcO2Xh9sl+IemmshAOyThfImRjww7IplILIkqntAO2NJoZA1vkJ0EU1SdhOtqMHLSFeQkUbscr6yHt8Larq9yJ+VayUkC0PLUQTavuFDptQrtmlXLxnw6w/orxClMGl0vKOUxN00Bk32NbLWzD9xmPsc1cS1yD/1DW/K96oZ+UWK6zDv5ehA3DHe+XtjCLJKZ6Kxnyqn9mfCKOMVf9b5fhsiZU5k7xAAAAAElFTkSuQmCC"
+          alt="Watch Full Video" />
+        <p>Watch Full Video</p>
+      </a>
+    </div>
+  </div>
+  <div class="popup-video" id="popup-video">
+    <div class="video-container">
+      <video class="video-pop" controls loop autoplay>
+        <source src="https://karir.detik.com/static/media/video-wp.b6f3d7b28023e6518346.mp4" type="video/mp4" />
+      </video>
+      <a href="#" class="close-btn">&times;</a>
+    </div>
+  </div>
+  <div class="content-wp pt50 pb50">
+    <div class="container">
+      <div class="row">
+        <div class="can-content">
+          <h1 class="h-wp pb30">You CAN Sit With Us</h1>
+          <div class="coloumn-can pt30">
+            <div class="desc-col">
+              <h4 class="font-blue">Hi, detikers!</h4>
+              <h6 class="light p1">
+                detikcom membuka kesempatan bagi kamu yang ingin tumbuh dan
+                berkembang bersama. Akan selalu ada cerita menyenangkan saat
+                berkarya dengan teammates seru di detikcom, selayaknya budaya
+                yang kami pegang, Working With Bestie. Di sini, detikers akan
+                menemukan banyak bestie baru yang siap menemani dan membantu
+                menghadapi segala tantangan.
+              </h6>
+              <h6 class="light">
+                Kami mencari seseorang yang juga bersemangat untuk menerapkan
+                values detikcom, B.E.S.T.I.E, yakni: Berintegritas,
+                Extraordinary, Sinergis, Tanggap, Inovatif, dan Energik. Hal
+                ini merupakan kunci yang akan mewujudkan detikcom sebagai
+                “Digital Life Gateway”.
+              </h6>
+              <h6 class="light">
+                Siap merasakan experience baru dalam meniti karir? Ini saatnya
+                kamu bekerja di samping sahabatmu sendiri!
+              </h6>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="footer-link">
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu redaksi"
-          href="https://www.detik.com/redaksi"
-          >Redaksi</a
-        >
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu pedoman media siber"
-          href="https://www.detik.com/pedoman-media"
-          rel="nofollow"
-          >Pedoman Media Siber</a
-        >
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu karir"
-          href="https://karir.detik.com"
-          rel="nofollow"
-          >Karir</a
-        >
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu kotak pos"
-          href="https://www.detik.com/kotak-pos"
-          rel="nofollow"
-          >Kotak Pos</a
-        >
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu media partner"
-          href="https://www.detik.com/media-partner"
-          rel="nofollow"
-          >Media Partner</a
-        >
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu info iklan"
-          href="https://www.detik.com/info-iklan"
-          rel="nofollow"
-          >Info Iklan</a
-        >
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu privacy policy"
-          href="https://www.detik.com/privacy-policy"
-          rel="nofollow"
-          >Privacy Policy</a
-        >
-        <a
-          dtr-evt="footer"
-          dtr-sec="menufooter"
-          dtr-act="menu footer"
-          dtr-ttl="menu disclaimer"
-          href="https://www.detik.com/disclaimer"
-          rel="nofollow"
-          >Disclaimer</a
-        >
+    </div>
+  </div>
+
+  <div class="logo-detik align-right" style="padding-top: 20px">
+    <img
+      src="data:image/png;base64,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" />
+  </div>
+
+  <div class="slider-banner pt50">
+    <h1 class="h-wp container pb30">We Carry These Values by Heart</h1>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://karir.detik.com/static/media/slide1.ed8e43303c040c5d71bf.jpeg" class="d-block w-100"
+            alt="slide1" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://karir.detik.com/static/media/slide2.9195385504eb78130bc4.jpeg" class="d-block w-100"
+            alt="slide2" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://karir.detik.com/static/media/slide3.d5cdca9679e3ee422249.jpeg" class="d-block w-100"
+            alt="slide3" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://karir.detik.com/static/media/slide4.6cb68347688187d80dce.jpeg" class="d-block w-100"
+            alt="slide4" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://karir.detik.com/static/media/slide5.29c708edea84bb2955d0.jpeg" class="d-block w-100"
+            alt="slide5" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://karir.detik.com/static/media/slide6.8e10a0ae5d4af20db860.jpeg" class="d-block w-100"
+            alt="slide6" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://karir.detik.com/static/media/slide7.2b901a7a1344976ca8bc.jpeg" class="d-block w-100"
+            alt="slide7" />
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-wp pt100 pb50">
+    <div class="container">
+      <div class="row">
+        <div class="content-job" id="content-job">
+          <h1 class="h-wp">Are You The One That We’re Looking For?</h1>
+          <div class="job-list pt50">
+            <div class="head-filter">
+              <input type="text" name="" placeholder="Input search keyword..." value="" />
+              <select class="selectpicker" title="Select Departement">
+                <option>Business</option>
+                <option>Content</option>
+              </select>
+              <select class="selectpicker" title="Select Job Level">
+                <option>Internship</option>
+                <option>Fulltime</option>
+                <option>Contract</option>
+              </select>
+              <button class="btn-general btn-orange search-job" dtr-evt="list job" dtr-sec="button search"
+                dtr-act="button search">
+                Search
+              </button>
+            </div>
+          </div>
+          <div class="job-inner">
+            <table class="table hide-mobile-767">
+              <tbody>
+                <tr class="tr-hover" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                  dtr-ttl="Videographer" style="cursor: pointer">
+                  <th class="tr-videographer" scope="row" dtr-evt="list job" dtr-sec="list job position"
+                    dtr-act="list job position" dtr-ttl="Videographer">
+                    <a href="#" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                      dtr-ttl="Videographer">Videographer<span><img class="arrow-right" dtr-evt="list job"
+                          dtr-sec="list job position" dtr-act="list job position" dtr-ttl="Videographer"
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
+                          alt="Arrow icon for detail view navigation" /></span></a>
+                  </th>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position" dtr-ttl="Videographer">
+                    BUSINESS
+                  </td>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position" dtr-ttl="Videographer">
+                    Fulltime
+                  </td>
+                </tr>
+                <tr class="tr-hover" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                  dtr-ttl="Social Media" style="cursor: pointer">
+                  <th class="tr-social-media" scope="row" dtr-evt="list job" dtr-sec="list job position"
+                    dtr-act="list job position" dtr-ttl="Social Media">
+                    <a href="#" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                      dtr-ttl="Social Media">Social Media<span><img class="arrow-right" dtr-evt="list job"
+                          dtr-sec="list job position" dtr-act="list job position" dtr-ttl="Social Media"
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
+                          alt="Arrow icon for detail view navigation" /></span></a>
+                  </th>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position" dtr-ttl="Social Media">
+                    BUSINESS
+                  </td>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position" dtr-ttl="Social Media">
+                    Fulltime
+                  </td>
+                </tr>
+                <tr class="tr-hover" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                  dtr-ttl="Video Editor 20detik" style="cursor: pointer">
+                  <th class="tr-video-editor" scope="row" dtr-evt="list job" dtr-sec="list job position"
+                    dtr-act="list job position" dtr-ttl="Video Editor 20detik">
+                    <a href="#" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                      dtr-ttl="Video Editor 20detik">Video Editor 20detik<span><img class="arrow-right"
+                          dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                          dtr-ttl="Video Editor 20detik"
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
+                          alt="Arrow icon for detail view navigation" /></span></a>
+                  </th>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                    dtr-ttl="Video Editor 20detik">
+                    CONTENT
+                  </td>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                    dtr-ttl="Video Editor 20detik">
+                    Fulltime
+                  </td>
+                </tr>
+                <tr class="tr-hover" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                  dtr-ttl="Reporter DetikNews" style="cursor: pointer">
+                  <th class="tr-reporter" scope="row" dtr-evt="list job" dtr-sec="list job position"
+                    dtr-act="list job position" dtr-ttl="Reporter DetikNews">
+                    <a href="#" dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                      dtr-ttl="Reporter DetikNews">Reporter DetikNews<span><img class="arrow-right" dtr-evt="list job"
+                          dtr-sec="list job position" dtr-act="list job position" dtr-ttl="Reporter DetikNews"
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACRSURBVHgB7dZRCYAwFIXhgwmMYAQbaQQbaANtoA2MYARtYAQjXK84EEFftjNBuD+clz18T2MM0ESklbMarOQeB1ZoMPgNrsDoAS7ASKGJDiuS6maDP4U3XY7QYsKZbjX4ET7OE3BLEZK7CYvcK+Hbb0H/R/wFbOCbgeGgQ0c22BvYICS5Pr0c0KFc0KEdFYzRDot/uy6FQ+aDAAAAAElFTkSuQmCC"
+                          alt="Arrow icon for detail view navigation" /></span></a>
+                  </th>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                    dtr-ttl="Reporter DetikNews">
+                    CONTENT
+                  </td>
+                  <td dtr-evt="list job" dtr-sec="list job position" dtr-act="list job position"
+                    dtr-ttl="Reporter DetikNews">
+                    Fulltime
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-mobile container">
+    <div class="footer-logo">
+      <img src="assets/detikcom-color.png" alt="detik.com" width="200px" height="39px" />
+      <div class="part-of">
+        part of
+        <span><img src="assets/detik-newtwork.png" alt="detiknetwork" width="100" height="37" /></span>
+      </div>
+    </div>
+    <div class="footer-link">
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu redaksi"
+        href="https://www.detik.com/redaksi">Redaksi</a>
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu pedoman media siber"
+        href="https://www.detik.com/pedoman-media" rel="nofollow">Pedoman Media Siber</a>
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu karir" href="https://karir.detik.com"
+        rel="nofollow">Karir</a>
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu kotak pos"
+        href="https://www.detik.com/kotak-pos" rel="nofollow">Kotak Pos</a>
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu media partner"
+        href="https://www.detik.com/media-partner" rel="nofollow">Media Partner</a>
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu info iklan"
+        href="https://www.detik.com/info-iklan" rel="nofollow">Info Iklan</a>
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu privacy policy"
+        href="https://www.detik.com/privacy-policy" rel="nofollow">Privacy Policy</a>
+      <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu disclaimer"
+        href="https://www.detik.com/disclaimer" rel="nofollow">Disclaimer</a>
+    </div>
+    <div class="footer-socmed">
+      <a target="_blank" rel="noreferrer" href="https://facebook.com/detikcom/"><svg aria-hidden="true"
+          focusable="false" data-prefix="fab" data-icon="facebook"
+          class="svg-inline--fa fa-facebook fa-brands fb fa-facebook-f" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+          </path>
+        </svg></a>
+      <a target="_blank" rel="noreferrer" href="https://twitter.com/detikcom"><svg aria-hidden="true" focusable="false"
+          data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-brands tw fa-twitter" role="img"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+          </path>
+        </svg></a>
+      <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/detik-com/"><svg aria-hidden="true"
+          focusable="false" data-prefix="fab" data-icon="linkedin"
+          class="svg-inline--fa fa-linkedin fa-brands li fa-linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+          </path>
+        </svg></a>
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/detikcom/"><svg aria-hidden="true"
+          focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-brands ig fa-instagram"
+          role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+          </path>
+        </svg></a>
+    </div>
+    <div class="download-app align-center pt30">
+      Download aplikasi detikcom
+      <div class="app pt10">
+        <a href="https://play.google.com/store/apps/details?id=org.detikcom.rss&amp;hl=en&amp;gl=US">
+          <img src="https://karir.detik.com/static/media/android.59b6d9f001b9f731c9b928ff38104a0a.svg"
+            alt="android appstore" width="84" height="25" />
+        </a>
+        <a href="https://apps.apple.com/id/app/detikcom-berita-terlengkap/id442914988">
+          <img src="https://karir.detik.com/static/media/ios.cc5fbbb1225559101af1085e9ec8734a.svg" alt="ios appstore"
+            width="84" height="25" />
+        </a>
+        <a href="https://appgallery.huawei.com/app/C100672045">
+          <img src="https://karir.detik.com/static/media/huawei.9c04adc888c36fd54ee7dbfd3706a552.svg"
+            alt="huawei appstore" width="84" height="25" />
+        </a>
+      </div>
+    </div>
+    <div class="copywrite light align-center pt40 pre-small">
+      Copyright ©2023 detiknetwork. All right reserved ·
+    </div>
+  </footer>
+  <footer class="footer-desktop container">
+    <div class="footer-logo-desktop">
+      <a href="https://detik.com">
+        <img src="assets/detikcom-color.png" alt="Logo" width="120" height="23" class="d-inline-block align-text-top" />
+      </a>
       <div class="footer-socmed">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://facebook.com/detikcom/"
-          ><svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fab"
-            data-icon="facebook"
-            class="svg-inline--fa fa-facebook fa-brands fb fa-facebook-f"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="currentColor"
-              d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
-            ></path></svg
-        ></a>
-        <a target="_blank" rel="noreferrer" href="https://twitter.com/detikcom"
-          ><svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fab"
-            data-icon="twitter"
-            class="svg-inline--fa fa-brands tw fa-twitter"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="currentColor"
-              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-            ></path></svg
-        ></a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/company/detik-com/"
-          ><svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fab"
-            data-icon="linkedin"
-            class="svg-inline--fa fa-linkedin fa-brands li fa-linkedin-in"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-            ></path></svg
-        ></a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.instagram.com/detikcom/"
-          ><svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fab"
-            data-icon="instagram"
-            class="svg-inline--fa fa-brands ig fa-instagram"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <path
-              fill="currentColor"
-              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-            ></path></svg
-        ></a>
+        <a target="_blank" rel="noreferrer" href="https://facebook.com/detikcom/"><svg aria-hidden="true"
+            focusable="false" data-prefix="fab" data-icon="facebook"
+            class="svg-inline--fa fa-facebook fa-brands fb fa-facebook-f" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+            </path>
+          </svg></a>
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/detikcom"><svg aria-hidden="true"
+            focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-brands tw fa-twitter"
+            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+            </path>
+          </svg></a>
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/detik-com/"><svg aria-hidden="true"
+            focusable="false" data-prefix="fab" data-icon="linkedin"
+            class="svg-inline--fa fa-linkedin fa-brands li fa-linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+            </path>
+          </svg></a>
+        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/detikcom/"><svg aria-hidden="true"
+            focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-brands ig fa-instagram"
+            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+            </path>
+          </svg></a>
       </div>
-      <div class="download-app align-center pt30">
-        Download aplikasi detikcom
-        <div class="app pt10">
-          <a
-            href="https://play.google.com/store/apps/details?id=org.detikcom.rss&amp;hl=en&amp;gl=US"
-          >
-            <img
-              src="https://karir.detik.com/static/media/android.59b6d9f001b9f731c9b928ff38104a0a.svg"
-              alt="android appstore"
-              width="84"
-              height="25"
-            />
-          </a>
-          <a
-            href="https://apps.apple.com/id/app/detikcom-berita-terlengkap/id442914988"
-          >
-            <img
-              src="https://karir.detik.com/static/media/ios.cc5fbbb1225559101af1085e9ec8734a.svg"
-              alt="ios appstore"
-              width="84"
-              height="25"
-            />
-          </a>
-          <a href="https://appgallery.huawei.com/app/C100672045">
-            <img
-              src="https://karir.detik.com/static/media/huawei.9c04adc888c36fd54ee7dbfd3706a552.svg"
-              alt="huawei appstore"
-              width="84"
-              height="25"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="copywrite light align-center pt40 pre-small">
+    </div>
+    <div class="bottom-footer">
+      <div class="copywrite">
         Copyright ©2023 detiknetwork. All right reserved ·
       </div>
-    </footer>
-    <footer class="footer-desktop container">
-      <div class="footer-logo-desktop">
-        <a href="https://detik.com">
-          <img
-            src="assets/detikcom-color.png"
-            alt="Logo"
-            width="120"
-            height="23"
-            class="d-inline-block align-text-top"
-          />
-        </a>
-        <div class="footer-socmed">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://facebook.com/detikcom/"
-            ><svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fab"
-              data-icon="facebook"
-              class="svg-inline--fa fa-facebook fa-brands fb fa-facebook-f"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-            >
-              <path
-                fill="currentColor"
-                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
-              ></path></svg
-          ></a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://twitter.com/detikcom"
-            ><svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fab"
-              data-icon="twitter"
-              class="svg-inline--fa fa-brands tw fa-twitter"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-            >
-              <path
-                fill="currentColor"
-                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-              ></path></svg
-          ></a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.linkedin.com/company/detik-com/"
-            ><svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fab"
-              data-icon="linkedin"
-              class="svg-inline--fa fa-linkedin fa-brands li fa-linkedin-in"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <path
-                fill="currentColor"
-                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-              ></path></svg
-          ></a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.instagram.com/detikcom/"
-            ><svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fab"
-              data-icon="instagram"
-              class="svg-inline--fa fa-brands ig fa-instagram"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <path
-                fill="currentColor"
-                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-              ></path></svg
-          ></a>
-        </div>
+      <div class="link-footer">
+        <ul class="nav nav--column">
+          <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu redaksi"
+            href="https://www.detik.com/redaksi">Redaksi</a>
+          <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu pedoman media siber"
+            href="https://www.detik.com/pedoman-media" rel="nofollow">Pedoman Media Siber</a>
+          <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu karir"
+            href="https://karir.detik.com" rel="nofollow">Karir</a>
+          <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu kotak pos"
+            href="https://www.detik.com/kotak-pos" rel="nofollow">Kotak Pos</a>
+          <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu media partner"
+            href="https://www.detik.com/media-partner" rel="nofollow">Media Partner</a>
+          <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu info iklan"
+            href="https://www.detik.com/info-iklan" rel="nofollow">Info Iklan</a><a dtr-evt="footer"
+            dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu privacy policy"
+            href="https://www.detik.com/privacy-policy" rel="nofollow">Privacy Policy</a>
+          <a dtr-evt="footer" dtr-sec="menufooter" dtr-act="menu footer" dtr-ttl="menu disclaimer"
+            href="https://www.detik.com/disclaimer" rel="nofollow">Disclaimer</a>
+        </ul>
       </div>
-      <div class="bottom-footer">
-        <div class="copywrite">
-          Copyright ©2023 detiknetwork. All right reserved ·
-        </div>
-        <div class="link-footer">
-          <ul class="nav nav--column">
-            <a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu redaksi"
-              href="https://www.detik.com/redaksi"
-              >Redaksi</a
-            >
-            <a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu pedoman media siber"
-              href="https://www.detik.com/pedoman-media"
-              rel="nofollow"
-              >Pedoman Media Siber</a
-            >
-            <a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu karir"
-              href="https://karir.detik.com"
-              rel="nofollow"
-              >Karir</a
-            >
-            <a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu kotak pos"
-              href="https://www.detik.com/kotak-pos"
-              rel="nofollow"
-              >Kotak Pos</a
-            >
-            <a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu media partner"
-              href="https://www.detik.com/media-partner"
-              rel="nofollow"
-              >Media Partner</a
-            >
-            <a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu info iklan"
-              href="https://www.detik.com/info-iklan"
-              rel="nofollow"
-              >Info Iklan</a
-            ><a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu privacy policy"
-              href="https://www.detik.com/privacy-policy"
-              rel="nofollow"
-              >Privacy Policy</a
-            >
-            <a
-              dtr-evt="footer"
-              dtr-sec="menufooter"
-              dtr-act="menu footer"
-              dtr-ttl="menu disclaimer"
-              href="https://www.detik.com/disclaimer"
-              rel="nofollow"
-              >Disclaimer</a
-            >
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
